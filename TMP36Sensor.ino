@@ -35,8 +35,7 @@ void loop() {
   
   float temp = (voltage - 0.5) * 100; // Convert the voltage to temperature in Celsius (ºC);
   
-  Serial.print(", ºC
-  ºº:");
+  Serial.print(", ºC:");
   Serial.println(temp);
   
   delay(100); // Delay in between reads
